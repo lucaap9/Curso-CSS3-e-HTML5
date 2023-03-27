@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Condensed:wght@300&display=swap');
+@font-face {
+    font-family: 'idroid';
+    src: url(pacote-projeto-d010/fontes/idroid.otf);
+}
+
+element.style {
+    margin-top: -21px;
+}
+
+body {
+    margin: 0px 0px;
+    background-color: rgba(244, 245, 160, 0.562);
+}
+
+header#cabecalho {
+    background-image: linear-gradient(to bottom, rgb(35, 238, 154), rgb(2, 95, 52));
+    padding: 10px;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;;
+}
+
+header#cabecalho > h1 {
+    text-align: center; 
+    font-weight: bold; 
+}
+
+header#cabecalho > p {
+    text-align: center; 
+    font-weight: lighter;
+      
+}
+
+header#cabecalho > nav > a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+header#cabecalho > nav > a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 850px;
+    background-color: white;
+    margin:auto;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    font-weight: 600;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.507);
+}
+
+iframe {
+    border: 30px solid rgb(0, 82, 0);
+    margin-left: -10px;
+}
+
+main > h1 {
+    font-family: 'idroid';
+    background-image: linear-gradient(to right, rgba(35, 238, 153, 0.329), white);
+    color: rgb(2, 95, 52);
+}
+
+h3 {
+    color: rgb(0, 128, 21);
+    font-family: 'idroid';
+    background-image: linear-gradient(to right, rgba(35, 238, 153, 0.329), white);
+}
+
+main > picture {
+    margin-left: 22px;
+}
+
+section {
+    background-color: rgba(133, 248, 185, 0.575);
+    width: 800px;
+    margin: auto;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+section > ul {
+    width: 300px;
+    display: block;
+    margin: 10px;
+    float: left;
+}
+section > ul#baixo {
+    width: 300px;
+    display: block;
+    margin: 10px;
+    
+}
+
+h2 {
+    background-color: rgba(49, 165, 90, 0.932);
+    color: white;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    font-weight: bold;
+}
+
+main > p {
+    text-indent: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-right: 30px;
+    margin-left: 22px;
+}
+
+section > p {
+    text-indent: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    margin: 10px;
+}
+
+mark {
+    background-color: rgba(31, 248, 121, 0.466);
+    text-decoration: none;
+}
+
+footer {
+    background-color: rgba(9, 73, 31, 0.685);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+}
+
+img#bugdroid {
+    width: 300px;
+    margin-left: 30%;
+}
