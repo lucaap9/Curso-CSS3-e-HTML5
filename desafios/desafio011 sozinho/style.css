@@ -15,21 +15,25 @@
     margin: 5px;
 }
 
+body {
+    min-height: 100vh;
+}
+
 header {
-    height: 215px;
     background-color: black;
     margin-top: -40px;
     margin-left: -40px;
     margin-right: -40px;
     text-align: center;
-    letter-spacing: 0px;
+    letter-spacing: -1px;
+    display: block;
 }
 
 header > h1 {
     color: white;
     font-family: var(--fonte2);
-    font-weight: 700;
-    font-size: 4.2em;
+    font-variant: small-caps;
+    font-size: 10vw;
     padding-top: 45px;
     margin-bottom: 0px;
     padding-bottom: 0px;
@@ -58,6 +62,10 @@ header a {
     padding-left: 0px;
 }
 
+header a:hover {
+    text-decoration: underline;
+}
+
 main {
     font-family: var(--fonte3);
     font-size: 2em;
@@ -82,23 +90,26 @@ main article#q1 {
 main br {
     margin: 0px;
     padding: 0px;
+    display: block;
 }
 
 main section#q2 {
-    background: black url('imagens/background001.jpg') center no-repeat fixed;
-    background-size: 100% 100%;
-    padding: 0px;
+    background-image: url('imagens/background001.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
     margin: 0px -50px;
-    height: 650px;
-    position: relative;
+    display: block;
 }
 
 main section#q2 article {
     color: white;
     background-color: rgba(0, 0, 0, 0.226);
-    max-width: 400px;
-    position: absolute;
-
-    left: 3%;
-    top: 12%;
+    font-size: 3.5vw;
+    display: block;
+    width: 50%;
 }
