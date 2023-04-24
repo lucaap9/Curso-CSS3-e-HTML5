@@ -11,22 +11,20 @@
 }
 
 * {
-    padding: 10px;
-    margin: 5px;
+    padding: 0px;
+    margin: 0px;
+    width: 100vw;
 }
 
 body {
     min-height: 100vh;
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
+    width: 100vw;
 }
 
 header {
     background-color: black;
-    margin-top: -40px;
-    margin-left: -40px;
-    margin-right: -50px;
+    padding-bottom: 20px;
+    width: 100vw;
     text-align: center;
     display: block;
 }
@@ -37,15 +35,11 @@ header > h1 {
     font-variant: small-caps;
     font-size: 10vw;
     padding-top: 45px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
 }
 
 header > p {
     color: white;
-    margin-top: 0px;
-    padding-top: 0px;
-    margin-bottom: 45px;
+    margin-bottom: 35px;
     font-family: var(--fonte1);
 }
 
@@ -73,11 +67,11 @@ section {
     padding-bottom: 10vh;
     margin: 0px;
     margin-bottom: 20px;
+    display: block;
 }
 
 main article#q1 {
-    margin: 0px;
-    padding: 0px;
+    padding-left: 30px;
     line-height: 2em;
     font-family: var(--fonte3);
     font-size: 3.5vw;
@@ -139,17 +133,14 @@ main section#q4 article {
 footer {
     background-color: black;
     color: white;
-    margin-bottom: -50px;
-    margin-left: -40px;
-    margin-right: -50px;
     padding: 12px;
     text-align: center;
     font-size: 2vw;
+    display: block;
+    width: 100vw;
 }
 
 footer a {
-    margin: 0px;
-    padding: 0px;
     text-decoration: none;
     color: white;
     font-weight: bold;
